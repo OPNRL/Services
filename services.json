@@ -16,6 +16,10 @@
     "groupname": "WEB",
     "group": [
       {
+        "service": "STATUS (THIS WEBSITE)",
+        "url": "https://status.opnrl.com/"
+      },
+      {
         "service": "WEBSITE",
         "url": "https://opnrl.com/"
       },
