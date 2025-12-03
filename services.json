@@ -26,6 +26,10 @@
       {
         "service": "MariaDB",
         "url": ""
+      },
+      {
+        "service": "Cassandra",
+        "url": ""
       }
     ]
   },
@@ -36,7 +40,11 @@
         "groupname": "CS2",
         "group": [
           {
-            "service": "Deathmatch",
+            "service": "Deathmatch 1",
+            "ip": ""
+          },
+          {
+            "service": "Deathmatch 2",
             "ip": ""
           }
         ]
