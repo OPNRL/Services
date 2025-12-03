@@ -1,0 +1,46 @@
+[
+  {
+    "groupname": "API",
+    "group": [
+      {
+        "service": "V1",
+        "url": ""
+      },
+      {
+        "service": "V2",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "groupname": "WEB",
+    "group": [
+      {
+        "service": "WEBSITE",
+        "url": ""
+      },
+      {
+        "service": "PostgreSQL",
+        "url": ""
+      },
+      {
+        "service": "MariaDB",
+        "url": ""
+      }
+    ]
+  },
+  {
+    "groupname": "GAME SERVERS",
+    "group": [
+      {
+        "groupname": "CS2",
+        "group": [
+          {
+            "service": "Deathmatch",
+            "ip": ""
+          }
+        ]
+      }
+    ]
+  }
+]
