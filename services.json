@@ -4,11 +4,11 @@
     "group": [
       {
         "service": "V1",
-        "url": ""
+        "url": "https://opnrl.com/api/v1"
       },
       {
         "service": "V2",
-        "url": ""
+        "url": "https://opnrl.com/api/v2"
       }
     ]
   },
@@ -17,19 +17,19 @@
     "group": [
       {
         "service": "WEBSITE",
-        "url": ""
+        "url": "https://opnrl.com/"
       },
       {
         "service": "PostgreSQL",
-        "url": ""
+        "url": "https://opnrl.com/api/db/postgresql"
       },
       {
         "service": "MariaDB",
-        "url": ""
+        "url": "https://opnrl.com/api/db/mariadb"
       },
       {
         "service": "Cassandra",
-        "url": ""
+        "url": "https://opnrl.com/api/db/cassandra"
       }
     ]
   },
@@ -41,10 +41,6 @@
         "group": [
           {
             "service": "Deathmatch 1",
-            "ip": ""
-          },
-          {
-            "service": "Deathmatch 2",
             "ip": ""
           }
         ]
