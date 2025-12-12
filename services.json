@@ -23,19 +23,6 @@
             ]
           }
         ]
-      },
-      {
-        "groupname": "GAME SERVERS",
-        "group": [
-          {
-            "groupname": "CS2",
-            "group": [
-              {
-                "service": "Deathmatch 1",
-                "ip": ""
-              }
-            ]
-          }
-        ]
       }
-    ]
+    }
+]
