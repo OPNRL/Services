@@ -7,48 +7,35 @@
         "url": "https://opnrl.com/api/v1"
       },
       {
-        "service": "V2",
-        "url": "https://opnrl.com/api/v2"
-      }
-    ]
-  },
-  {
-    "groupname": "WEB",
-    "group": [
-      {
-        "service": "STATUS (THIS WEBSITE)",
-        "url": "https://status.opnrl.com/"
-      },
-      {
-        "service": "WEBSITE",
-        "url": "https://opnrl.com/"
-      },
-      {
-        "service": "PostgreSQL",
-        "url": "https://opnrl.com/api/db/postgresql"
-      },
-      {
-        "service": "MariaDB",
-        "url": "https://opnrl.com/api/db/mariadb"
-      },
-      {
-        "service": "Cassandra",
-        "url": "https://opnrl.com/api/db/cassandra"
-      }
-    ]
-  },
-  {
-    "groupname": "GAME SERVERS",
-    "group": [
-      {
-        "groupname": "CS2",
+        "groupname": "WEB",
         "group": [
           {
-            "service": "Deathmatch 1",
-            "ip": ""
+            "service": "STATUS (THIS WEBSITE)",
+            "url": "https://status.opnrl.com/"
+          },
+          {
+            "groupname": "OPNRL",
+            "group": [
+              {
+                "service": "Website",
+                "url": "https://opnrl.com/"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "groupname": "GAME SERVERS",
+        "group": [
+          {
+            "groupname": "CS2",
+            "group": [
+              {
+                "service": "Deathmatch 1",
+                "ip": ""
+              }
+            ]
           }
         ]
       }
     ]
-  }
-]
